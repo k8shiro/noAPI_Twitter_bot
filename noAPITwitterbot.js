@@ -76,8 +76,7 @@ WScript.Sleep( 3000 );
 var userDropdown = ieApp.document.getElementById("user-dropdown-toggle");
 userDropdown.click();
 WScript.Sleep( 3000 );
-var logoutButton = ieApp.document.getElementById("signout-form");//.children.item(1);
-//logoutButton.dispatchEvent(submitEvent);
+var logoutButton = ieApp.document.getElementById("signout-form");
 logoutButton.click();
 
 
