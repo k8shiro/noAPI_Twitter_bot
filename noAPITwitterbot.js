@@ -81,6 +81,15 @@ var logoutButton = ieApp.document.getElementById("signout-form");//.children.ite
 logoutButton.click();
 
 
+while( ieApp.Busy )
+    WScript.Sleep( 500 ); 
+WScript.Sleep( 3000 );
+
+// ブラウザを終了
+ieApp.Quit();
+
+//  解放
+ieApp = null;
 
 
 
