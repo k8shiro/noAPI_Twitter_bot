@@ -1,5 +1,5 @@
-var userName = "****"
-var userPassword = "****"
+var userName = "****";
+var userPassword = "****";
 
 
 var now = new Date();
