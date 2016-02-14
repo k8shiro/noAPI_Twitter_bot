@@ -63,7 +63,7 @@ var tweetAreaButton = ieApp.document.getElementById("global-new-tweet-button");
 tweetAreaButton.click();
 WScript.Sleep( 500 );
 var tweetTextBox = ieApp.document.getElementById("tweet-box-global").children.item(0);
-tweetTextBox.innerHTML =
+tweetTextBox.innerHTML = tweetText;
 WScript.Sleep( 3000 );
 var tweetButton = ieApp.document.getElementsByClassName("btn primary-btn tweet-action tweet-btn js-tweet-btn").item(1) ;
 tweetButton.click();
